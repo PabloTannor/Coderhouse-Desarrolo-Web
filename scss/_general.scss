@@ -1,0 +1,67 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+/*--------------------index--------------------*/
+
+.index{
+	font-family: 'Dosis', sans-serif;
+	background-image: url(../images/fondo.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/*--------------------Paginas html--------------------*/
+
+body{
+	background: $color-body1;
+	background: -webkit-linear-gradient(to bottom,$color-body2,$color-body3); 
+	background: linear-gradient(to bottom, $color-body2, $color-body3); 
+
+}
+
+/*--------------------Footer--------------------*/
+
+
+//------------Mixin anclas footer--------------//
+
+@mixin anclas-footer {
+    text-decoration: none;
+	color:black;
+
+}
+//---------------------------------------------//
+
+.inicio_footer{
+	margin-top: 160px;
+	margin-left: 120px;
+	margin-right: 120px;
+	border-top: 1px solid white;
+    display:grid;
+	grid-template-columns: repeat(4,1fr);
+	column-gap: 50px;
+
+    .espacio-footer{
+	    margin-top:50px;
+	    margin-bottom: 15px;
+    }
+    
+}
+
+.linkfooter{
+    @include anclas-footer;
+}
+
+
+.redes_sociales{
+	list-style: none;
+	padding:0px;
+	
+}
+
+.redes_sociales > li{
+	margin: 7px;
+    display: inline-block;
+}

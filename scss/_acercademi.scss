@@ -1,0 +1,79 @@
+/*--------------------Pagina Acerca de mi--------------------*/
+
+
+/*--------------------Seccion 1-----------------------------*/
+
+.seccion1 {
+        display:flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+    
+
+    .titulo_seccion_acerca{
+            font-weight: bold;
+    }
+    
+    .foto{
+        margin-top:50px;
+        margin-bottom: 20px;
+        width: 15rem;
+        height: 15rem;
+        
+    }
+    
+    .btn{
+        background-color: $color-btn;
+        color: $color-fuentes;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        height: 35px;
+        width: 150px;
+        text-align: center;
+        margin-top:1rem;
+    }
+
+    .sobremi{
+        text-align: center;
+    }
+
+}
+
+/*--------------------Seccion 2-----------------------------*/
+
+.seccion2{
+    
+    .tituloh2{
+        margin-top: 140px;
+        margin-left: 115px;
+        margin-right: 115px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid white;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    
+    .seccion2cards{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 50px;
+        margin: auto 120px;
+        margin-top:60px;
+    }
+    
+    .cajaseccion2{
+        height: 34px;
+        width: 34px;
+        background-color: $color-caja-seccion2;
+    }
+    
+    .espacio_card{
+        margin-top: 30px;
+    }
+
+}
+
+

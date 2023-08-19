@@ -1,0 +1,84 @@
+/*--------------------Pagina Consultorio--------------------*/
+
+.consultorio_seccion1{
+
+	.experiencia{
+		font-weight: bold;
+		text-align: center;
+		font-size: 2.3rem;
+		margin-top:70px;
+	}
+
+	.contenedor{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-top: 50px;
+		flex-wrap: wrap;
+		
+	}
+
+	.cards-experiencia{
+		height: 300px;
+		width: 200px;
+		background-color: #D3D3D3;
+		text-align: center;
+		font-size: larger;
+		border-radius: 20px;
+		font-family: 'dosis';
+		box-shadow: 6px 6px 40px rgba(0,0,0,0.70);
+		
+	}
+
+	.titulo-cards{
+		font-weight: bolder;
+		border-bottom: 1px solid grey;
+		margin: 10px 0 10px;
+		
+	}
+	
+	.parrafo_cards{
+		font-style: italic;
+		box-sizing: border-box;
+		padding: 5px;
+	}
+
+}
+
+//----------Seccion 2----------//
+
+.consultorio_seccion2{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+	.visita{
+		font-size: 2rem;
+		margin-top:70px;
+	}
+
+	.miconsultorio{
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
+}
+
+
+
+
+
+/*.titulo-exp{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}*/
+
+
+
+
+
+
+

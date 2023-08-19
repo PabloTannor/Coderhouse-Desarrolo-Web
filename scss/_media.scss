@@ -1,0 +1,59 @@
+@media (max-width:767px){
+
+    .titulo_seccion_acerca{
+        font-size: x-large;
+        text-align: center;
+        margin:10px;
+    }
+
+    .inicio_footer, .bajo_carrusel{
+        display:grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin:0;
+    
+    }
+
+    .espacioArea{
+        width: 100%;
+    }
+
+    /*--------------------Pagina Consultorio--------------------*/
+    .consultorio_seccion2{
+        max-width: 90%;
+        margin:auto;
+    }
+
+    .pVisita, .visita{
+        text-align: center;
+    }
+
+    
+	.contenedor{
+		display:grid !important;
+		gap:20px;
+		
+	}
+	iframe{
+		width: 100%;
+		
+	}
+
+     /*--------------------Pagina Psicologia--------------------*/
+
+    .btn{
+        margin-bottom: 20px;
+    }
+
+    /*--------------------Pagina Acerca de mi--------------------*/
+
+    .sobremi{
+        text-align: center;
+    }
+
+    .cards2{
+        display:grid;
+        grid-template-columns: 1fr !important;
+        
+    }
+}
